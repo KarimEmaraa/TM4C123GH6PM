@@ -13,3 +13,13 @@ GPIO driver for TI TM4C123GH6PM and almost portable to STMF10x Device Family pac
 ## Notes
 1.  Functions descriptions are in the header file.
 2.  `GPIO_PinConfigure` function arguments are not compitable between both devices. You must use the right enum values for each device.
+
+## TM4C123GH6PM Delay
+Delay functions based using timers. Written using CCS and compiler with TI compiler.
+## Specifications
+* Uses TivaWare Library v2.1.4
+* Selectable timer module
+* Accurate time delays 1% error.
+## Notes
+1. Functions descriptions are in the .h file.
+2. Select the required timer module and CPU frequency in CPU_FREQ and TIMER_BASE macros.
