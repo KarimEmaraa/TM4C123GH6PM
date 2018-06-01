@@ -1,5 +1,5 @@
 # TM4C123GH6PM
-Libraries compatible with both MCUs
+
 # TM4C123GH6PM-GPIO
 GPIO driver for TI TM4C123GH6PM. Written using KEIL v5.24a and compiled with ARM Compiler v6. Debbugged and Tested using TIVA C LaunchPad board.
 
@@ -17,7 +17,7 @@ Delay functions based using timers. Written using CCS and compiler with TI compi
 ## Specifications
 * Uses TivaWare Library v2.1.4
 * Selectable timer module
-* Accurate time delays 1% error.
+* Almost 100% accurate using stop watch.
 ## Notes
 1. Functions descriptions are in the .h file.
 2. Select the required timer module and CPU frequency in CPU_FREQ and TIMER_BASE macros.
