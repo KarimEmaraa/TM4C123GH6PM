@@ -18,6 +18,10 @@ Delay functions based using timers. Written using CCS and compiler with TI compi
 * Uses TivaWare Library v2.1.4
 * Selectable timer module
 * Almost 100% accurate using stop watch.
+
+## TM4C123GH6PM SPI Slave communication with RPI 3
+Quick Demo to start communication between TIVA C board running FreeRTOS and RPI 3.
+* Based to TivaWare library. compiled and linked using CCS tools and Linaro toolchain for RPI. 
 ## Notes
 1. Functions descriptions are in the .h file.
 2. Select the required timer module and CPU frequency in CPU_FREQ and TIMER_BASE macros.
